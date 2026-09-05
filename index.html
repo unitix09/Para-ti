@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Algo Especial Para Ti ❤️</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+    <!-- Capa 1: Pantalla de Bienvenida -->
+    <div id="pantalla-inicio" class="pantalla activa">
+        <div class="tarjeta-bienvenida">
+            <h2>Tengo una sorpresa para ti ✨</h2>
+            <p>Haz clic abajo para comenzar</p>
+            <button id="btn-comenzar">Abrir regalo 💖</button>
+        </div>
+    </div>
+
+    <!-- Capa 2: Pantalla del Sobre Interactivo -->
+    <div id="pantalla-sobre" class="pantalla oculta">
+        <div class="contenedor-sobre">
+            <p class="instruccion">Toca el sobre para abrirlo 💌</p>
+            <div class="envelope-wrapper" id="envelope">
+                <div class="envelope">
+                    <div class="front flap"></div>
+                    <div class="front pocket"></div>
+                    <div class="letter">
+                        <div class="words">
+                            <h3>Para Ti ❤️</h3>
+                            <p>Hola, solo quería recordarte lo mucho que te quiero y aprecio que eres alguien muy especial para mí y eres alguien muy importante para mí, nunca dejes apagar tu luz te quiero muchisimo sabes que siempre estaré aquí para ti...🥺❤️</p>
+                        </div>
+                    </div>
+                    <div class="hearts">
+                        <div class="heart a1"></div>
+                        <div class="heart a2"></div>
+                        <div class="heart a3"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Capa 3: Pantalla del Jardín + Mensaje Final -->
+    <div id="pantalla-jardin" class="pantalla oculta">
+        <div class="titulo">
+            <h1>Para Ti ✨</h1>
+        </div>
+
+        <div class="tarjeta-mensaje">
+            <p>Estas lindas flores son para ti 🌸✨</p>
+        </div>
+
+        <!-- Jardín con Flores Animadas -->
+        <div class="flowers">
+            <!-- Flor 1 (Centro) -->
+            <div class="flower flower--1">
+                <div class="flower__leafs">
+                    <div class="flower__leaf"></div>
+                    <div class="flower__leaf"></div>
+                    <div class="flower__leaf"></div>
+                    <div class="flower__leaf"></div>
+                    <div class="flower__leaf"></div>
+                    <div class="flower__leaf"></div>
+                    <div class="flower__leaf"></div>
+                    <div class="flower__leaf"></div>
+                    <div class="flower__white-circle"></div>
+                </div>
+                <div class="flower__line">
+                    <div class="flower__line__leaf flower__line__leaf--1"></div>
+                    <div class="flower__line__leaf flower__line__leaf--2"></div>
+                </div>
+            </div>
+
+            <!-- Flor 2 (Izquierda) -->
+            <div class="flower flower--2">
+                <div class="flower__leafs">
+                    <div class="flower__leaf"></div>
+                    <div class="flower__leaf"></div>
+                    <div class="flower__leaf"></div>
+                    <div class="flower__leaf"></div>
+                    <div class="flower__leaf"></div>
+                    <div class="flower__leaf"></div>
+                    <div class="flower__leaf"></div>
+                    <div class="flower__leaf"></div>
+                    <div class="flower__white-circle"></div>
+                </div>
+                <div class="flower__line">
+                    <div class="flower__line__leaf flower__line__leaf--1"></div>
+                    <div class="flower__line__leaf flower__line__leaf--2"></div>
+                </div>
+            </div>
+
+            <!-- Flor 3 (Derecha) -->
+            <div class="flower flower--3">
+                <div class="flower__leafs">
+                    <div class="flower__leaf"></div>
+                    <div class="flower__leaf"></div>
+                    <div class="flower__leaf"></div>
+                    <div class="flower__leaf"></div>
+                    <div class="flower__leaf"></div>
+                    <div class="flower__leaf"></div>
+                    <div class="flower__leaf"></div>
+                    <div class="flower__leaf"></div>
+                    <div class="flower__white-circle"></div>
+                </div>
+                <div class="flower__line">
+                    <div class="flower__line__leaf flower__line__leaf--1"></div>
+                    <div class="flower__line__leaf flower__line__leaf--2"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Música de Fondo -->
+    <audio id="musica" src="En Familia - Carlo Siliotto __ No se Aceptan Devoluciones (Song de Tiktok) - The Clown.mp3" loop></audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
